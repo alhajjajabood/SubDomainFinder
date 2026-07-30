@@ -4,7 +4,7 @@ A high-performance, multithreaded C++ subdomain enumeration tool that uses DNS r
 
 ## Features
 
-- **Multithreaded** – Uses a configurable number of threads (defaults to hardware concurrency) for concurrent DNS lookups
+- **Multithreaded** – Automatically calculates and uses hardware concurrency (`thread::hardware_concurrency()`) to set the thread count
 - **Thread-Safe Queue** – Implements a producer-consumer pattern with `SafeQueue<T>` using mutexes and condition variables
 - **Progress Reporting** – Real-time output showing processed count, found subdomains, and elapsed time
 - **Cross-Platform** – Supports both Linux (POSIX) and Windows (Winsock)
