@@ -64,4 +64,4 @@ This tool is provided free of charge. You are permitted to use, copy, modify, an
 
 ---
 
-**Happy Subdomain Hunting!** 🕵️
+**Happy Subdomain Hunting!** 
